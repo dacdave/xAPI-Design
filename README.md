@@ -92,9 +92,7 @@ Click the name of the branch you just created and it will take you to that branc
 master repository, you’ll see a button that says something along the lines of ‘Send Pull Request’.  Add any additional 
 messages and continue through the steps. 
 
-If you visit your master repository in your browser now, click Pull Requests on the right hand side. Your pull request 
-will be listed so click it. It should be automatically allowed to be merged now so you can click Merge pull request to 
-merge your code into the master repo.
+Now you wait for someone with administrative permission to the github master project (the one that you cloned into your github account). That admin will review your request and either merge it into the master project or reject it. If it is accepted and merged into the master project, proceed to merge all master changes into your local copy.
 
 Back on your local branch, checkout your master branch 
 
@@ -102,7 +100,7 @@ Back on your local branch, checkout your master branch
 
 and run `git pull upstream master` 
 
-Your local master branch will now have the changes you merged into the master repository. 
+Your local master branch will now have the changes that were merged into the master repository. 
 
 NOTE:  Whenever you create a new local branch, always make sure you branch from your master branch and remember to 
 pull the new changes into it.
